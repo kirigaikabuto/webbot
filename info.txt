@@ -1,0 +1,16 @@
+1) создание виртуальной среды
+python -m venv venv
+
+2) активация виртуальной среды
+[windows]
+venv\scripts\activate
+
+[mac/linux]
+source venv/bin/activate
+
+3)установка всех библиотек
+pip install -r req.txt
+
+
+команда для выгрузки всех библиотек
+pip freeze > req.txt
